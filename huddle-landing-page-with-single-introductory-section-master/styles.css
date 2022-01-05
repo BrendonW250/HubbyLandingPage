@@ -1,37 +1,56 @@
-
-/* Navbar styling */
-.topnav{
-    background-color: blueviolet;
-    overflow: hidden;
+/* Desktop background styling */
+*{
+    box-sizing: border-box;
 }
 
-.topnav a{
-    float: right;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    width: 1440px;
+    
 }
 
-.topnav a:hover{
-    background-color: aqua;
-    color: black;
-}
-
-.topnav .logo{
+/* Creates two equal columns so now content should be side by side */
+.column{
     float: left;
-    font-weight: bold;
-    font-size: large;
+    width: 50%;
+    padding: 30px;
+    
+}
+.column h1{
+    text-align: center;
+    color: white;
+    padding: 50px 0 50px;
+    font-weight: 400 ,600
 }
 
 
 
-/* Styling for the footer*/
+/* Image styling */
+/* .illustrations-image{
+    
+}
+
+.info{
+    text-align: center;
+    font-weight: 400;
+    color: white;
+} */
+
+
+/* Styling for footer */
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+
+
+
+
+
+
